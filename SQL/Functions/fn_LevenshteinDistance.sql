@@ -1,5 +1,4 @@
-USE Atlantis
-GO
+
 /*
 SELECT dbo.fn_LevenshteinDistance('Klueppel', 'Knopfel')
 SELECT dbo.fn_LevenshteinDistance('Klueppel', 'Klappel')

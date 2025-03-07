@@ -1,5 +1,4 @@
-USE Atlantis
-GO
+
 /*
 usp_PartyPhoneticName_Refresh 5150
 */

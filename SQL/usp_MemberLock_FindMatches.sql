@@ -1,5 +1,4 @@
-USE Atlantis
-GO
+
 /*
 exec usp_MemberLock_FindMatches null, '803200015' --\ same
 exec usp_MemberLock_FindMatches 1001276282, null  --/ claim
@@ -21,7 +20,6 @@ usp_MemberLock_FindMatches null, 'PC0149346'
 usp_MemberLock_FindMatches null, 'PC0149305' -- DOB incorrect, last name spelled wrong
 usp_MemberLock_FindMatches null, 'PC0149328' -- DOB incorrect
 usp_MemberLock_FindMatches null, 'PC0149364' -- Jesse James
-usp_MemberLock_FindMatches null, '803200010' -- F / FEDERALPRISONER mapped to Jesse / James
 usp_MemberLock_FindMatches null, '803200008' -- JOSEFELIX / VALDERRAMALOPEZ mapped to JOSE / FELIX VALDERRAMA- LOPEZ
 usp_MemberLock_FindMatches null, '803200015' -- JUANOPUS / DAVILA mapped to JUAN / DAVILA
 
